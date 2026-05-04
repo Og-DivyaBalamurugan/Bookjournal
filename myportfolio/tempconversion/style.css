@@ -1,0 +1,90 @@
+body{
+    font-family: verdana;
+    font-size: 1.0em;
+    background-color: rgb(201, 201, 239);
+    background-image: url('download3.jpeg') ;
+    background-size: cover; 
+    background-position:center 
+    background-repeat: no-repeat; 
+    
+}
+h2{
+ color: rgb(98, 98, 158);
+}
+
+.centerform{
+    background-color: rgb(229, 233, 215);
+    margin:auto;
+    text-align: center;
+    width: 400px;
+    padding:25px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px rgb(39, 39, 39) ;
+    
+    margin-bottom: 100px; /* Adds space below each form */
+}
+#tempBox{
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;}
+    
+
+
+.fromTemp{
+font-size: 20px;
+}
+.toTemp{
+    font-size: 20px;
+    margin-left: 50px;
+    }
+
+#mySubmit{
+    color:rgb(4, 0, 8);
+    background-color: rgb(231, 222, 232);
+}
+
+#tempBox{
+    border-width: 0.2cap;
+    
+}
+
+.form2{
+    
+    align-self: flex-start; 
+  width: 100%; 
+  max-width: 400px; 
+  background-color: rgb(229, 233, 215);
+  text-align: center;
+    width: 600px;
+    padding:25px;
+    border-radius: 5%;
+    margin-left: 90px;
+    
+    box-shadow: 5px 5px 15px rgb(39, 39, 39) ;
+    
+}
+.form3{
+    
+    align-self: flex-end;
+  width: 100%; 
+  max-width: 400px; 
+  background-color: rgb(229, 233, 215);
+  text-align: center;
+    width: 600px;
+    padding:25px;
+    border-radius: 5%;
+    margin-right: 160px;
+    box-shadow: 5px 5px 15px rgb(39, 39, 39) ;
+    
+}
+
+.bottom-forms {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 50px; /* Add spacing to push forms toward the edges */
+}
+ 
+ 
